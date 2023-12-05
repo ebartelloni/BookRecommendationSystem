@@ -1,9 +1,7 @@
 import pandas as pd
 
-# Load all the datasets, not correct filenames rn
+# Load all the datasets
 books = pd.read_csv('Book2.csv')
-# users = pd.read_csv('users.csv')
-# ratings = pd.read_csv('Ratings.csv')
 ratings = pd.read_csv('Rating2.csv')
 
 # Filter out rows with 0 ratings
